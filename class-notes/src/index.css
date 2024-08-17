@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +65,68 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+body{
+  background-color: #242424;
+}
+
+.card{
+  border: 1 px solid rgb(55, 6, 88);
+  border-radius: 10px;
+  /* box-shadow: 3px 3px 3px rgb(98, 27, 156); */
+  /* padding: 10px; */
+  margin: 10px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(60, 17, 100);
+  color: whitesmoke;
+}
+
+.card .card-image{
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card .card-title{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.card .card-text{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  padding: 15px;
+  margin: 0;
+}
+
+.button{
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.student{
+  border: 1px solid hsla(278, 90%, 27%, 0.534);
+  background-color: hsla(278, 90%, 27%, 0.144);
+  color: rgba(255, 255, 255, 0.76);
+  display: flex;
+
+  flex-direction: column;
+  padding-left: 20px;
+  margin: 10px;
+}
+
+.student-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-content: center;
+  align-items: center;
 }
