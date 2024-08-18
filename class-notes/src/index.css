@@ -118,7 +118,8 @@ body{
   background-color: hsla(278, 90%, 27%, 0.144);
   color: rgba(255, 255, 255, 0.76);
   display: flex;
-
+  width: 80%;
+  border-radius: 10px;
   flex-direction: column;
   padding-left: 20px;
   margin: 10px;
