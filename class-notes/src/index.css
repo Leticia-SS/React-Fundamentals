@@ -131,3 +131,13 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+.welcome-message{
+  background-color: rgb(13, 163, 80);
+  color: white;
+}
+
+.login-prompt{
+  background-color: rgb(182, 11, 11);
+  color: black;
+}

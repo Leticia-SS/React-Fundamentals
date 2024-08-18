@@ -4,6 +4,7 @@ import Classes from './Classes/Aula1.jsx'
 import Card from './Classes/Card.jsx'
 import Button from './Classes/Button.jsx'
 import Student from './Classes/PropsParent.jsx' //Parent sending props to Child
+import UserGreeting from './Classes/UserGreeting.jsx'
 
 function App() {
   return(
@@ -21,6 +22,8 @@ function App() {
       <Student name="Hércules" age={9} isStudent={true}/>
       <Student/>
       </div>
+      <UserGreeting isLoggedIn={true} username="Lara"/>
+      <UserGreeting isLoggedIn={false} username="Alaska"/>
       <Footer/>
     </>
   );
